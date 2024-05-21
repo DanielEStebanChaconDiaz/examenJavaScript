@@ -5,6 +5,7 @@ const carrito = document.querySelector('#carrito');
 const hoodies = document.querySelector('#hoodie');
 const pants = document.querySelector('#pants');
 const car = document.querySelector('#car');
+const car_index = document.querySelector('#car-index');
 const shirts = await fetch('http://localhost:5311/camiseta');
 const result = await shirts.json();
 console.log(result);
@@ -27,9 +28,6 @@ try {
                     </div>
                 </div>`;
         camisetas.append(div);
-        div.querySelector('.Comprar').addEventListener('click', () => {
-            comprar(nombre)
-        });
     }
 }
 catch (error) {
@@ -99,15 +97,18 @@ try{
 catch (error) {
     console.log(error);
 }
-async function comprar() {
+//listar carrito del json de la carpeta db
+try{
+    const carr = await fetch('http://localhost:5314/carrito');
+    const result4 = await carr.json();
     for (let i = 0; i < 5; i++) {
         let nombre = result[i].nombre;
         let img = result[i].imagen;
         let price = result[i].precio;
+        let cant = result4[i].cantidad;
         let div = document.createElement('div');
-        div.classList.add('shirt');
+        div.classList.add('productos');
         div.innerHTML = `
-        <div class="productos" data-id = "${nombre}">
         <img src="${img}" alt="">
         <div class="nombre">
             <Strong>${nombre}</Strong>
@@ -115,7 +116,7 @@ async function comprar() {
         <div class="cantidad">
             <strong>Cantidad</strong>
             <div class="cant">
-                <small>${i + 1}</small>
+                <small>${cant}</small>
             </div>
         </div>
         <div class="precio">
@@ -124,16 +125,22 @@ async function comprar() {
         </div>
         <div class="subtotal">
             <strong>Subtotal</strong>
-            <small>${price}</small>
+            <small>${price * cant}</small>
         </div>
         <div class="borrar">
             <button class="borrar">
-                <a href="/views/carritov1.html"><i class='bx bx-x'></i></a>
+                <i class='bx bx-x'></i>
             </button>
-        </div>
         </div>
         `;
         carrito.append(div);
+        div.querySelector('i').addEventListener('click', () => {
+            const elemento = document.querySelector("productos");
+            elemento.setAttribute("class", 'productos2');
+ 
+       });
     }
-
+}
+catch (error) {
+    console.log(error);
 }

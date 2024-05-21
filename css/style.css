@@ -201,10 +201,13 @@ h1{
 .carrito1{
     display: none;
 }
+.productos2{
+    display: none;
+}
 .piepag2{
     display: none;
 }
-.productoscarsell{
+.productos{
     width: 100%;
     height: 20vh;
     display: grid;
@@ -213,7 +216,7 @@ h1{
     box-shadow: var(--color-shadow-transparent);
     align-items: center;
 }
-.productoscarsell img{
+.maincarrito img{
     width: 100%;
     height: 20vh;
     border-radius: 30px;
