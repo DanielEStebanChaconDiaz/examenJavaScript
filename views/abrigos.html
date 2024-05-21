@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +8,9 @@
     <link rel="stylesheet" href="/css/style.css">
     <link rel="shortcut icon" href="/storage/img/logo-black.png">
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css" />
+    <script type="module" src="../js/main.js"></script>
 </head>
+
 <body>
     <main class="container">
         <section>
@@ -37,23 +40,24 @@
                             <li><a href="/views/pants.html">Pantalones</a></li>
                         </div>
                         <div class="carm">
-                            <li><a href="/views/carritov2.html" class="carrito1"><i class='bx bxs-cart-alt'></i></a></li>
-                            <li><a href="/views/carritov2.html">Carritos</a></li>
-                            <li><a href="/views/carritov2.html" class="numero">3</a></li>
+                            <li><a href="/views/carritov1.html" class="carrito1"><i class='bx bxs-cart-alt'></i></a>
+                            </li>
+                            <li><a href="/views/carritov1.html">Carritos</a></li>
+                            <li><a href="/views/carritov1.html" class="numero">3</a></li>
                         </div>
                         <div class="piepag2">
                             <li><a href="#"><i class='bx bx-copyright'></i></a></li>
                             <li><a href="#"><small>2023 Camper</small></a></li>
                         </div>
-                        <label for="check" class="close-menu"><i class='bx bx-x' ></i></label>
+                        <label for="check" class="close-menu"><i class='bx bx-x'></i></label>
                     </span>
                     <label for="check" class="open-menu"><i class='bx bx-menu'></i></i></label>
                 </ul>
                 <ul class="carrito">
-                    <div class="car">
-                        <li><a href="/views/carritov2.html"><i class='bx bxs-cart-alt'></i></a></li>
-                        <li><a href="/views/carritov2.html">Carritos</a></li>
-                        <li><a href="/views/carritov2.html" class="numero">3</a></li>
+                    <div class="car" id="car">
+                        <li><a href="/views/carritov1.html" class="carrito1"><i class='bx bxs-cart-alt'></i></a></li>
+                        <li><a href="/views/carritov1.html">Carritos</a></li>
+                        <li><a href="/views/carritov1.html" class="numero">3</a></li>
                     </div>
                 </ul>
                 <ul>
@@ -67,60 +71,12 @@
         <section>
             <article class="todos">
                 <h1>Abrigos</h1>
-                <div class="camisetas">
-                    <div class="hoodie">
-                        <div class="hoodie1"></div>
-                        <div class="text">
-                            <strong>Hoodie 1</strong>
-                            <div class="p">
-                                <small>$20.99</small>
-                                <button>Comprar</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="hoodie">
-                        <div class="hoodie2"></div>
-                        <div class="text">
-                            <strong>Hoodie 2</strong>
-                            <div class="p">
-                                <small>$20.99</small>
-                                <button>Comprar</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="hoodie">
-                        <div class="hoodie3"></div>
-                        <div class="text">
-                            <strong>Hoodie 3</strong>
-                            <div class="p">
-                                <small>$20.99</small>
-                                <button>Comprar</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="hoodie">
-                        <div class="hoodie4"></div>
-                        <div class="text">
-                            <strong>Hoodie 4</strong>
-                            <div class="p">
-                                <small>$20.99</small>
-                                <button>Comprar</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="hoodie">
-                        <div class="hoodie5"></div>
-                        <div class="text">
-                            <strong>Hoodie 5</strong>
-                            <div class="p">
-                                <small>$20.99</small>
-                                <button>Comprar</button>
-                            </div>
-                        </div>
-                    </div>
+                <div class="camisetas1">
+                    <div class="camisetas" id="hoodie"></div>
                 </div>
             </article>
         </section>
     </main>
 </body>
+
 </html>

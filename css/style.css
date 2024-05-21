@@ -84,6 +84,14 @@ h1{
     box-shadow: var(--color-shadow-transparent);
     border-radius: 20px;
 }
+.camisetas0{
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 1fr;
+    justify-items: center;
+    grid-gap: 20px;
+}
 .camisetas{
     height: auto;
     display: grid;
@@ -92,10 +100,10 @@ h1{
     justify-items: center;
     grid-gap: 20px;
 }
-.shirt{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.shirt, .pants,.hoodie{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 1fr;
     border-radius: 20px;
 }
 .shirt1{
@@ -104,7 +112,13 @@ h1{
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
-
+.imagen{
+    width: 200px;
+    height: 230px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    object-fit: contain;
+}
 .hoodie1{
     width: 200px;
     height: 230px;
@@ -116,6 +130,9 @@ h1{
     height: 230px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+}
+.text strong{
+    font-size: .9rem;
 }
 .text{
     width: 200px;
@@ -324,7 +341,7 @@ h1{
     .carrito{
         display: none;
     }
-    .camisetas{
+    .camisetas,.camisetas0{
         grid-template-columns: 1fr;
     }
     .todos h1{
