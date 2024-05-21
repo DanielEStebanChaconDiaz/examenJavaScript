@@ -95,228 +95,27 @@ h1{
 .shirt{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     border-radius: 20px;
 }
 .shirt1{
     width: 200px;
-    height: 230px;;
-    background: url(/storage/img/shirt1v1.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-}
-.shirt1:hover{
-    transition: 0.5s ease;
-    background: url(/storage/img/shirt1v2.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-.shirt2{
-    width: 200px;
     height: 230px;
-    background: url(/storage/img/shirt2v1.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
-.shirt2:hover{
-    transition: 0.5s ease;
-    background: url(/storage/img/shirt2v2.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-.shirt3{
-    width: 200px;
-    height: 230px;
-    background: url(/storage/img/shirt3v1.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-}
-.shirt3:hover{
-    transition: 0.5s ease;
-    background: url(/storage/img/shirt3v2.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-.shirt4{
-    width: 200px;
-    height: 230px;
-    background: url(/storage/img/shirt4v1.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-}
-.shirt4:hover{
-    transition: 0.5s ease;
-    background: url(/storage/img/shirt4v2.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-.shirt5{
-    width: 200px;
-    height: 230px;
-    background: url(/storage/img/shirt5v1.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-}
-.shirt5:hover{
-    transition: 0.5s ease;
-    background: url(/storage/img/shirt5v2.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
+
 .hoodie1{
     width: 200px;
     height: 230px;
-    background: url(/storage/img/hoodie1v1.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-}
-.hoodie1:hover{
-    transition: 0.5s ease;
-    background: url(/storage/img/hoodie1v2.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-.hoodie2{
-    width: 200px;
-    height: 230px;
-    background: url(/storage/img/hoodie2v1.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-}
-.hoodie2:hover{
-    transition: 0.5s ease;
-    background: url(/storage/img/hoodie2v2.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-.hoodie3{
-    width: 200px;
-    height: 230px;
-    background: url(/storage/img/hoodie3v1.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-}
-.hoodie3:hover{
-    transition: 0.5s ease;
-    background: url(/storage/img/hoodie3v2.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-.hoodie4{
-    width: 200px;
-    height: 230px;
-    background: url(/storage/img/hoodie4v1.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-}
-.hoodie4:hover{
-    transition: 0.5s ease;
-    background: url(/storage/img/hoodie4v2.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-.hoodie5{
-    width: 200px;
-    height: 230px;
-    background: url(/storage/img/hoodie5v1.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-}
-.hoodie5:hover{
-    transition: 0.5s ease;
-    background: url(/storage/img/hoodie5v2.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
 }
 .pants1{
     width: 200px;
     height: 230px;
-    background: url(/storage/img/pants1v1.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-}
-.pants2{
-    width: 200px;
-    height: 230px;
-    background: url(/storage/img/pants2v1.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-}
-.pants2:hover{
-    transition: 0.5s ease;
-    background: url(/storage/img/pants2v2.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-.pants3{
-    width: 200px;
-    height: 230px;
-    background: url(/storage/img/pants3v1.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-}
-.pants3:hover{
-    transition: 0.5s ease;
-    background: url(/storage/img/pants3v2.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-.pants4{
-    width: 200px;
-    height: 230px;
-    background: url(/storage/img/pants4v1.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-}
-.pants4:hover{
-    transition: 0.5s ease;
-    background: url(/storage/img/pants4v2.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-.pants5{
-    width: 200px;
-    height: 230px;
-    background: url(/storage/img/pants5v1.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-}
-.pants5:hover{
-    transition: 0.5s ease;
-    background: url(/storage/img/pants5v2.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
 }
 .text{
     width: 200px;
